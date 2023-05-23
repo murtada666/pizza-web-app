@@ -11,7 +11,7 @@
 	// fetch the resulting rows as an array
 	$pizzas = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-	// free the $result from memory (good practise)
+	// free the $result from memory (good practice)
 	mysqli_free_result($result);
 
 	// close connection
